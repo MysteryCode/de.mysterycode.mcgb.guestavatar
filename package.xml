@@ -5,8 +5,8 @@
 		<packagename language="de"><![CDATA[MysteryCode Gästebuch: Gästeavatare]]></packagename>
 		<packagedescription><![CDATA[Adds the avatar for entries by guests]]></packagedescription>
 
-		<version><![CDATA[1.0.0 RC 1]]></version>
-		<date><![CDATA[2017-01-18]]></date>
+		<version><![CDATA[1.0.0]]></version>
+		<date><![CDATA[2017-01-30]]></date>
 		
 		<packageurl>https://www.mysterycode.de</packageurl>
 	</packageinformation>
@@ -26,6 +26,13 @@
 	</authorinformation>
 	
 	<instructions type="install">
+		<instruction type="template" application="mcgb" />
+		<instruction type="option" />
+		<instruction type="language" />
+		<instruction type="templateListener" />
+	</instructions>
+
+	<instructions type="update" fromversion="1.0.0 RC 1">
 		<instruction type="template" application="mcgb" />
 		<instruction type="option" />
 		<instruction type="language" />
