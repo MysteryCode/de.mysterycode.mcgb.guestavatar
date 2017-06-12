@@ -4,7 +4,7 @@
 		<templatelistener name="guestAvatarList">
 			<environment>user</environment>
 			<templatename>messageSidebar</templatename>
-			<eventname>messageAuthor</eventname>
+			<eventname>beforeCredits</eventname>
 			<templatecode><![CDATA[{if MCGB_ENTRY_GUEST_AVATAR && $templateName|isset && $templateName == 'guestbook' && $templateNameApplication == 'mcgb' && $userProfile|isset && !$userProfile->userID}{include file='__guestAvatar' application='mcgb'}{/if}]]></templatecode>
 		</templatelistener>
 	</import>
