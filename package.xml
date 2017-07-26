@@ -6,7 +6,7 @@
 		<packagedescription><![CDATA[Adds the avatar for entries by guests]]></packagedescription>
 
 		<version><![CDATA[0.9.0]]></version>
-		<date><![CDATA[2017-06-12]]></date>
+		<date><![CDATA[2017-07-23]]></date>
 		
 		<packageurl>https://www.mysterycode.de</packageurl>
 	</packageinformation>
@@ -26,13 +26,6 @@
 	</authorinformation>
 	
 	<instructions type="install">
-		<instruction type="template" application="mcgb">templates.tar</instruction>
-		<instruction type="option">option.xml</instruction>
-		<instruction type="language">language/*.xml</instruction>
-		<instruction type="templateListener">templateListener.xml</instruction>
-	</instructions>
-
-	<instructions type="update" fromversion="1.0.0 RC 1">
 		<instruction type="template" application="mcgb">templates.tar</instruction>
 		<instruction type="option">option.xml</instruction>
 		<instruction type="language">language/*.xml</instruction>
