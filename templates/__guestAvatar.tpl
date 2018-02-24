@@ -5,7 +5,7 @@
 {/if}
 
 {if !$___guestAvatarJsInitated|isset}
-	<script>
+	<script data-relocate="true">
 		$(function () {
 			$('[data-user-id=""] .mcgbGuestAvatar+.userAvatar:not(.mcgbGuestAvatar)').remove();
 		})
