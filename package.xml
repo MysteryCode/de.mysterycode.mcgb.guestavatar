@@ -5,8 +5,8 @@
 		<packagename language="de"><![CDATA[MysteryCode Gästebuch: Gästeavatare]]></packagename>
 		<packagedescription><![CDATA[Adds the avatar for entries by guests]]></packagedescription>
 
-		<version><![CDATA[1.0.1]]></version>
-		<date><![CDATA[2017-11-05]]></date>
+		<version><![CDATA[1.0.2]]></version>
+		<date><![CDATA[2018-02-24]]></date>
 		
 		<packageurl>https://www.mysterycode.de</packageurl>
 	</packageinformation>
@@ -14,16 +14,12 @@
 	<compatibility>
 		<api version="2018" />
 	</compatibility>
-	
+
 	<requiredpackages>
-		<requiredpackage minversion="3.0.0"><![CDATA[com.woltlab.wcf]]></requiredpackage>
-		<requiredpackage minversion="1.1.2 pl 1"><![CDATA[de.mysterycode.mcgb]]></requiredpackage>
+		<requiredpackage minversion="3.1.0"><![CDATA[com.woltlab.wcf]]></requiredpackage>
+		<requiredpackage minversion="1.2.0"><![CDATA[de.mysterycode.mcgb]]></requiredpackage>
 	</requiredpackages>
-	
-	<excludedpackages>
-		<excludedpackage version="3.2.0 Alpha 1"><![CDATA[com.woltlab.wcf]]></excludedpackage>
-	</excludedpackages>
-	
+
 	<authorinformation>
 		<author><![CDATA[Florian Gail]]></author>
 		<authorurl><![CDATA[https://www.mysterycode.de]]></authorurl>
@@ -42,7 +38,7 @@
 		<instruction type="language" />
 		<instruction type="templateListener" />
 	</instructions>
-	<instructions type="update" fromversion="1.0.0">
+	<instructions type="update" fromversion="1.0.1">
 		<!-- dummy update -->
 		<instruction type="template" application="mcgb" />
 	</instructions>
