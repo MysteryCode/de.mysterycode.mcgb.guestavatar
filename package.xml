@@ -5,24 +5,18 @@
 		<packagename language="de"><![CDATA[MysteryCode Gästebuch: Gästeavatare]]></packagename>
 		<packagedescription><![CDATA[Adds the avatar for entries by guests]]></packagedescription>
 
-		<version><![CDATA[1.0.2]]></version>
-		<date><![CDATA[2018-02-24]]></date>
-		
-		<packageurl>https://www.mysterycode.de</packageurl>
+		<version><![CDATA[1.1.0]]></version>
+		<date><![CDATA[2025-01-02]]></date>
 	</packageinformation>
 
-	<compatibility>
-		<api version="2018" />
-	</compatibility>
-
 	<requiredpackages>
-		<requiredpackage minversion="3.1.0"><![CDATA[com.woltlab.wcf]]></requiredpackage>
-		<requiredpackage minversion="1.2.0"><![CDATA[de.mysterycode.mcgb]]></requiredpackage>
+		<requiredpackage minversion="6.1.0"><![CDATA[com.woltlab.wcf]]></requiredpackage>
+		<requiredpackage minversion="1.5.0"><![CDATA[de.mysterycode.mcgb]]></requiredpackage>
 	</requiredpackages>
 
 	<authorinformation>
 		<author><![CDATA[Florian Gail]]></author>
-		<authorurl><![CDATA[https://www.mysterycode.de]]></authorurl>
+		<authorurl><![CDATA[https://softcreatr.dev]]></authorurl>
 	</authorinformation>
 	
 	<instructions type="install">
@@ -32,14 +26,7 @@
 		<instruction type="templateListener" />
 	</instructions>
 
-	<instructions type="update" fromversion="1.0.0 RC 1">
-		<instruction type="template" application="mcgb" />
-		<instruction type="option" />
-		<instruction type="language" />
-		<instruction type="templateListener" />
-	</instructions>
-	<instructions type="update" fromversion="1.0.1">
-		<!-- dummy update -->
-		<instruction type="template" application="mcgb" />
+	<instructions type="update" fromversion="1.0.2">
+        <instruction type="template" application="mcgb" />
 	</instructions>
 </package>
