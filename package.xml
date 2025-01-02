@@ -10,9 +10,14 @@
 	</packageinformation>
 
 	<requiredpackages>
-		<requiredpackage minversion="6.1.0"><![CDATA[com.woltlab.wcf]]></requiredpackage>
-		<requiredpackage minversion="1.5.0"><![CDATA[de.mysterycode.mcgb]]></requiredpackage>
+		<requiredpackage minversion="6.0.0"><![CDATA[com.woltlab.wcf]]></requiredpackage>
+		<requiredpackage minversion="1.4.0"><![CDATA[de.mysterycode.mcgb]]></requiredpackage>
 	</requiredpackages>
+
+    <excludedpackages>
+        <excludedpackage version="6.2.0 dev 1"><![CDATA[com.woltlab.wcf]]></excludedpackage>
+        <excludedpackage version="1.6.0 dev 1"><![CDATA[de.mysterycode.mcgb]]></excludedpackage>
+    </excludedpackages>
 
 	<authorinformation>
 		<author><![CDATA[Florian Gail]]></author>
